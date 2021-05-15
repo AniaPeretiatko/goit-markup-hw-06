@@ -812,6 +812,9 @@ textarea {
 }
 
 .checkbox-label {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   color: var(--main-text-color);
 }
 
@@ -820,8 +823,6 @@ textarea {
   display: inline-block;
   width: 16px;
   height: 15px;
-  margin-bottom: 5px;
-  margin-right: 7px;
   border: 2px solid var(--title-color);
   vertical-align: middle;
 }
